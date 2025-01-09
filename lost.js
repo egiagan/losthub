@@ -3,9 +3,9 @@ import { getDatabase, ref, push, get, update } from "https://www.gstatic.com/fir
 import { getStorage, ref as storageRef, uploadBytes, getDownloadURL } from "https://www.gstatic.com/firebasejs/9.15.0/firebase-storage.js";
 
 const appSettings = {
-  databaseURL: "https://found-it-first-default-rtdb.firebaseio.com/",
-  storageBucket: "found-it-first.appspot.com"
-};
+  databaseURL: "https://login-egi-agan-default-rtdb.firebaseio.com/",
+  storageBucket: "login-egi-agan.firebasestorage.app"
+}; 
 
 const app = initializeApp(appSettings);
 const database = getDatabase(app);
