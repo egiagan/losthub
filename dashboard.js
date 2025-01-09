@@ -5,15 +5,13 @@ import { getStorage, ref as storageRef, uploadBytes, getDownloadURL } from "http
 
 
 const firebaseConfig = {
-  apiKey: "AIzaSyCqcaX7OppQVZd_0ttwvd2XfRfWDKcQ5TQ",
-  authDomain: "found-it-first.firebaseapp.com",
-  databaseURL: "https://found-it-first-default-rtdb.firebaseio.com",
-  projectId: "found-it-first",
-  storageBucket: "found-it-first.appspot.com",
-  messagingSenderId: "514337900685",
-  appId: "1:514337900685:web:e95a46804a18aedff0bac4",
-  databaseURL: "https://found-it-first-default-rtdb.firebaseio.com/",
-  storageBucket: "found-it-first.appspot.com"
+  apiKey: "AIzaSyDAlth1sxiP-S3r3fVDXhwadVVnEvpdO6s",
+  authDomain: "login-egi-agan.firebaseapp.com",
+  databaseURL: "https://login-egi-agan-default-rtdb.firebaseio.com",
+  projectId: "login-egi-agan",
+  storageBucket: "login-egi-agan.firebasestorage.app",
+  messagingSenderId: "395059466114",
+  appId: "1:395059466114:web:5c6b0621e9739df6b5c99b"
 
 };
 
